@@ -21,37 +21,37 @@ services/
 ## 🎯 Choose by Primary Function
 
 ### Customer Relationship Management
-- **[HubSpot](./crm/hubspot/primer.md)** - Best for marketing automation, inbound sales, and all-in-one CRM needs
-- **[Salesforce](./crm/salesforce/primer.md)** - Best for enterprise sales processes, complex customization, and large teams
+- **[HubSpot](./crm/hubspot.md)** - Best for marketing automation, inbound sales, and all-in-one CRM needs
+- **[Salesforce](./crm/salesforce.md)** - Best for enterprise sales processes, complex customization, and large teams
 
 ### Payment Processing
-- **[Stripe](./payments/stripe/primer.md)** - Best for online payments, subscriptions, marketplaces, and modern billing needs
+- **[Stripe](./payments/stripe.md)** - Best for online payments, subscriptions, marketplaces, and modern billing needs
 
 ### Analytics & Business Intelligence
-- **[Google Analytics](./analytics/google-analytics/primer.md)** - Best for website analytics, user behavior tracking, and conversion analysis
-- **[Databox](./analytics/databox/primer.md)** - Best for business KPI dashboards and multi-source data aggregation
+- **[Google Analytics](./analytics/google-analytics.md)** - Best for website analytics, user behavior tracking, and conversion analysis
+- **[Databox](./analytics/databox.md)** - Best for business KPI dashboards and multi-source data aggregation
 
 ### Backend Infrastructure
-- **[Firebase](./infrastructure/firebase/primer.md)** - Best for rapid app development, real-time features, and managed backend services
+- **[Firebase](./infrastructure/firebase.md)** - Best for rapid app development, real-time features, and managed backend services
 
 ## 🚀 Quick Start Workflows
 
 ### Building an E-commerce Platform
-1. **Payments:** Start with [Stripe](./payments/stripe/primer.md) for payment processing
-2. **Analytics:** Add [Google Analytics](./analytics/google-analytics/primer.md) for conversion tracking
-3. **CRM:** Integrate [HubSpot](./crm/hubspot/primer.md) for customer nurturing
-4. **Reporting:** Connect [Databox](./analytics/databox/primer.md) for unified dashboards
+1. **Payments:** Start with [Stripe](./payments/stripe.md) for payment processing
+2. **Analytics:** Add [Google Analytics](./analytics/google-analytics.md) for conversion tracking
+3. **CRM:** Integrate [HubSpot](./crm/hubspot.md) for customer nurturing
+4. **Reporting:** Connect [Databox](./analytics/databox.md) for unified dashboards
 
 ### Creating a SaaS Application
-1. **Backend:** Begin with [Firebase](./infrastructure/firebase/primer.md) for authentication and database
-2. **Billing:** Add [Stripe](./payments/stripe/primer.md) for subscription management
-3. **Analytics:** Implement [Google Analytics](./analytics/google-analytics/primer.md) for user behavior
-4. **Support:** Integrate [HubSpot](./crm/hubspot/primer.md) for customer success
+1. **Backend:** Begin with [Firebase](./infrastructure/firebase.md) for authentication and database
+2. **Billing:** Add [Stripe](./payments/stripe.md) for subscription management
+3. **Analytics:** Implement [Google Analytics](./analytics/google-analytics.md) for user behavior
+4. **Support:** Integrate [HubSpot](./crm/hubspot.md) for customer success
 
 ### Enterprise Sales Operations
-1. **Lead Management:** Start with [HubSpot](./crm/hubspot/primer.md) for marketing qualified leads
-2. **Opportunity Management:** Move to [Salesforce](./crm/salesforce/primer.md) for complex sales processes
-3. **Performance Tracking:** Use [Databox](./analytics/databox/primer.md) for sales performance dashboards
+1. **Lead Management:** Start with [HubSpot](./crm/hubspot.md) for marketing qualified leads
+2. **Opportunity Management:** Move to [Salesforce](./crm/salesforce.md) for complex sales processes
+3. **Performance Tracking:** Use [Databox](./analytics/databox.md) for sales performance dashboards
 
 ## 📊 Service Comparison Matrix
 

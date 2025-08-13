@@ -4,7 +4,7 @@ This directory contains primers for integrating with Customer Relationship Manag
 
 ## Available CRM Platforms
 
-### [HubSpot](./hubspot/primer.md)
+### [HubSpot](./hubspot.md)
 **Best for:** Marketing automation, inbound sales, all-in-one CRM needs
 
 **Key Features:**
@@ -21,7 +21,7 @@ This directory contains primers for integrating with Customer Relationship Manag
 - Building inbound marketing and sales processes
 - Need good free tier to start with
 
-### [Salesforce](./salesforce/primer.md)
+### [Salesforce](./salesforce.md)
 **Best for:** Enterprise sales processes, complex customization, large teams
 
 **Key Features:**

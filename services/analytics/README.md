@@ -4,7 +4,7 @@ This directory contains primers for integrating with analytics and business inte
 
 ## Available Analytics Platforms
 
-### [Google Analytics](./google-analytics/primer.md)
+### [Google Analytics](./google-analytics.md)
 **Best for:** Web analytics, user behavior tracking, conversion analysis
 
 **Key Features:**
@@ -21,7 +21,7 @@ This directory contains primers for integrating with analytics and business inte
 - Need free, robust analytics platform
 - Want integration with Google marketing ecosystem
 
-### [Databox](./databox/primer.md)
+### [Databox](./databox.md)
 **Best for:** Business KPI dashboards, multi-source data aggregation
 
 **Key Features:**
