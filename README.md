@@ -20,6 +20,10 @@ This repository contains comprehensive primers for integrating with popular busi
 
 ### Authentication & Security
 - **[OAuth 2.0](./oauth/primer.md)** - Comprehensive guide to OAuth 2.0 authorization framework and implementation patterns
+- **[API Key Management](./api-key-management/primer.md)** - Best practices for secure API key lifecycle management, storage, and rotation
+- **[Webhook Signature Verification](./webhook-signature-verification/primer.md)** - Complete guide to verifying webhook authenticity and preventing attacks
+- **[Rate Limiting & Error Handling](./rate-limiting-error-handling/primer.md)** - Robust patterns for managing API quotas, failures, and service reliability
+- **[Data Privacy & Compliance](./data-privacy-compliance-considerations/primer.md)** - Essential guide to GDPR, CCPA, HIPAA compliance and privacy-by-design implementation
 
 ## What Each Primer Covers
 
@@ -50,6 +54,10 @@ Each service primer includes:
 
 ### Authentication & Authorization
 - [OAuth 2.0](./oauth/primer.md) - For secure third-party integrations and user authorization
+- [API Key Management](./api-key-management/primer.md) - For secure API credential management across all services
+- [Webhook Signature Verification](./webhook-signature-verification/primer.md) - For validating incoming webhook authenticity
+- [Rate Limiting & Error Handling](./rate-limiting-error-handling/primer.md) - For building resilient integrations that handle failures gracefully
+- [Data Privacy & Compliance](./data-privacy-compliance-considerations/primer.md) - For implementing privacy regulations and compliance requirements
 
 ## Integration Patterns
 
@@ -98,10 +106,10 @@ Each primer focuses on practical developer integration needs. If you find gaps o
 ## Security Considerations
 
 All primers emphasize security best practices:
-- Proper API key management
+- Proper API key management (see [API Key Management primer](./api-key-management/primer.md) for comprehensive guide)
 - OAuth 2.0 implementation (see [OAuth 2.0 primer](./oauth/primer.md) for comprehensive guide)
-- Webhook signature verification
-- Rate limiting and error handling
-- Data privacy and compliance considerations
+- Webhook signature verification (see [Webhook Signature Verification primer](./webhook-signature-verification/primer.md) for comprehensive guide)
+- Rate limiting and error handling (see [Rate Limiting & Error Handling primer](./rate-limiting-error-handling/primer.md) for comprehensive guide)
+- Data privacy and compliance considerations (see [Data Privacy & Compliance primer](./data-privacy-compliance-considerations/primer.md) for comprehensive guide)
 
 Remember to always use test/sandbox environments during development and never commit secrets to version control.
