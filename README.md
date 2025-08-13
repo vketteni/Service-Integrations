@@ -18,6 +18,9 @@ This repository contains comprehensive primers for integrating with popular busi
 ### Backend & Infrastructure
 - **[Firebase](./firebase/primer.md)** - Google's Backend-as-a-Service platform with real-time database, auth, and hosting
 
+### Authentication & Security
+- **[OAuth 2.0](./oauth/primer.md)** - Comprehensive guide to OAuth 2.0 authorization framework and implementation patterns
+
 ## What Each Primer Covers
 
 Each service primer includes:
@@ -45,6 +48,9 @@ Each service primer includes:
 ### Application Backend
 - [Firebase](./firebase/primer.md) - For rapid app development with managed backend services
 
+### Authentication & Authorization
+- [OAuth 2.0](./oauth/primer.md) - For secure third-party integrations and user authorization
+
 ## Integration Patterns
 
 ### Common Multi-Service Workflows
@@ -60,6 +66,7 @@ Each service primer includes:
 2. [Stripe](./stripe/primer.md) for subscription billing
 3. [Google Analytics](./google-analytics/primer.md) for user behavior tracking
 4. [HubSpot](./hubspot/primer.md) for customer support and onboarding
+5. [OAuth 2.0](./oauth/primer.md) for third-party integrations
 
 **Enterprise Sales Stack:**
 1. [Salesforce](./salesforce/primer.md) for opportunity management
@@ -92,7 +99,7 @@ Each primer focuses on practical developer integration needs. If you find gaps o
 
 All primers emphasize security best practices:
 - Proper API key management
-- OAuth 2.0 implementation
+- OAuth 2.0 implementation (see [OAuth 2.0 primer](./oauth/primer.md) for comprehensive guide)
 - Webhook signature verification
 - Rate limiting and error handling
 - Data privacy and compliance considerations
