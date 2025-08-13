@@ -138,7 +138,14 @@ const contacts = await hubspotClient.crm.contacts.basicApi.getPage();
 - **Burst limit**: 150 requests per 10 seconds
 
 ## Webhooks
-Set up webhooks to receive real-time notifications:
+### Step 1
+Register a webhook with HubSpot
+1. You go into the developer portal or API.
+2. You register https://your-server.com/hubspot-webhook as your callback URL.
+3. You select events you care about (e.g., Contact created, Deal updated).
+4. HubSpot will then POST JSON to that URL when those events occur.
+### Step 2
+Create a local HTTP endpoint in your server to handle incoming POST requests from Hubspot's webhook:
 
 ```javascript
 // Webhook endpoint example
